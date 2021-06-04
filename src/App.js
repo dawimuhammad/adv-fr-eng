@@ -1,4 +1,5 @@
 import { Grid } from '@material-ui/core';
+import Header from './Components/Header';
 import './App.css';
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
       container
       className="root"
     >
-      {/* Header */}
+      <Header />
       {/* Contents */}
     </Grid>
   );

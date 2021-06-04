@@ -1,1 +1,33 @@
 /* Global Styling Applies Here */
+
+/* Border Styles */
+.border {
+  border-style: solid;
+}
+
+.border.blue {
+  border-color: royalblue;
+}
+
+.border.orange {
+  border-color: tomato;
+}
+
+.border.black {
+  border-color: #444444;
+}
+
+.border.green {
+  border-color: yellowgreen;
+}
+
+/* Paragraph tag */
+
+* p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  color: #333333;
+  margin: 5px 0;
+}
