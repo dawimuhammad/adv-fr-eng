@@ -7,39 +7,35 @@ const Header = () => {
     <Grid
       container
       className="header-root"
-      direction="row"
     >
       <Grid 
         item
         container
-        xs={12} sm={3}
+        xs={12} sm={6}
         direction="row"
         alignItems="flex-end"
-        className="header-item"
       >
         <img className="logo-advotics big" src={LogoAdvotics} alt="Advotics" />
-        <span style={{ color: "#5B5B5B", fontSize: "11px" }}>powered by</span>
+        <p className="poweredby">powered by</p>
         <img className="logo-advotics small" src={LogoAdvotics} alt="Advotics" />
       </Grid>
 
       <Grid 
         item 
         container 
-        xs={12} sm={3} 
-        className="header-item"
+        xs={12} sm={4} 
         direction="row"
         justify="flex-end"
         alignItems="center"
-        spacing={2}
       >
-        <Grid item>
-          <p style={{ fontSize: "14px", color: "#727272", fontWeight: "600" }}>Username</p>
-          <p style={{ fontSize: "10px", color: "#727272", fontWeight: "300" }}>Company Name</p>
+        <Grid item className="">
+          <p className="username">Username</p>
+          <p className="company-name">Company Name</p>
         </Grid>
-        <Grid item>
+        <Grid item className="header-item">
           <img className="icon-profile" src={IconProfile} alt="Profile" />
         </Grid>
-        <Grid item>
+        <Grid item className="header-item">
           <img className="icon-logout" src={IconLogout} alt="Logout" />
         </Grid>
       </Grid>
