@@ -31,3 +31,7 @@
   color: #333333;
   margin: 5px 0;
 }
+
+* a {
+  text-decoration: none;
+}

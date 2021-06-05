@@ -1,0 +1,37 @@
+.sidebar-root {
+  position: relative;
+  width: 72px;
+  height: 100vh;
+  /* background-color: lightcoral; */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #D2D2D2;
+}
+
+.sidebar-root .sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+}
+
+.sidebar-root .sidebar-item.active {
+  background-color: #D2D2D2;
+}
+
+.sidebar-root .icon {
+  width: 24px;
+  height: 21px;
+}
+
+.sidebar-root .icon.squared {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+}
+
+.sidebar-root .icon .dashboard {
+  width: 16.93px;
+  height: 16.93px;
+}
