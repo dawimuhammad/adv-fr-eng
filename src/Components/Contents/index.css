@@ -1,0 +1,14 @@
+.contents-root {
+  flex: 1 0 auto;
+  background-color: lightcoral;
+  overflow: hidden;
+  padding: 31px 32px 31px 24px;
+  /* background: #F7F7F7 0% 0% no-repeat padding-box; */
+}
+
+.contents-root p.title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #707070C4;
+}

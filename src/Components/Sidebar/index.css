@@ -1,9 +1,8 @@
 .sidebar-root {
   position: relative;
   width: 72px;
-  height: 100vh;
-  /* background-color: lightcoral; */
   background: #FFFFFF 0% 0% no-repeat padding-box;
+  flex: 0 1 auto;
   border: 0.5px solid #D2D2D2;
 }
 

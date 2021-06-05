@@ -44,25 +44,27 @@
 .header-root p.poweredby {
   font-size: 11px;
   color: #5b5b5b;
-  margin: 0;
 }
 
 .header-root p.username {
   font-size: 14px;
   font-weight: 600;
   color: #727272;
+  margin: 5px 0;
+  
 }
 
 .header-root p.company-name {
   font-size: 10px;
   font-weight: 300;
   color: #727272;
+  margin: 5px 0;
 }
 
 @media only screen and (max-width: 768px) {
   .header-root {
     padding: 15px 10px;
-    height: auto;
+    height: 88px;
   }
 
   .header-root .logo-advotics.big {

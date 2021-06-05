@@ -29,9 +29,18 @@
   font-weight: normal;
   line-height: normal;
   color: #333333;
-  margin: 5px 0;
+  margin: 0;
 }
 
 * a {
   text-decoration: none;
+}
+
+/* main-container-root styling applies here */
+
+.main-container-root {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 64px);
+  flex-flow: row;
 }
