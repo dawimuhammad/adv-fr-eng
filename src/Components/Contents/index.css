@@ -14,7 +14,7 @@
 }
 
 .contents-root .calendar-box {
-  padding: 17px 17px;
+  padding: 17px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 2px 3px #00000029;
   border-radius: 2px;
@@ -23,16 +23,18 @@
 .contents-root p {
   font-size: 16px;
   color: #6A6A6A;
-  margin: 0 17px;
 }
 
-
 .contents-root p.title {
-  margin: 0;
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 0px;
   color: #707070C4;
+}
+
+.contents-root p.subtitle {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .contents-root .icon-calendar {

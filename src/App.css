@@ -38,6 +38,10 @@
 	vertical-align: top;
 }
 
+.chevron.white::before {
+  border-color: #ffffff;
+}
+
 .chevron.down::before {
   top: 0.15em;
   transform: rotate(135deg);

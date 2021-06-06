@@ -1,0 +1,21 @@
+.greenbox {
+  padding: 17px;
+  background-color: #37B04C;
+  border-radius: 2px;
+}
+
+.greenbox p {
+  color: #ffffff;
+}
+
+.greenbox .a-help {
+  color: #ffffff;
+  text-decoration: underline;
+  margin: 0 17px;
+}
+
+.greenbox .icon-help {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+}

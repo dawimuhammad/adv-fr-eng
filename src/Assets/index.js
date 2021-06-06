@@ -4,6 +4,7 @@ import IconProfile from './icon-profile@2x.png';
 import IconBreadcrumbs from './icon-breadcrumbs@1x.png';
 import IconDashboard from './icon-dashboard@2x.png';
 import IconCalendar from './icon-calendar@1x.png';
+import IconHelp from './icon-help@2x.png';
 
 export {
   LogoAdvotics,
@@ -11,5 +12,6 @@ export {
   IconProfile,
   IconBreadcrumbs,
   IconDashboard,
-  IconCalendar
+  IconCalendar,
+  IconHelp
 };
