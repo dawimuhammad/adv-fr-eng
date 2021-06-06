@@ -1,4 +1,5 @@
 import { Grid } from '@material-ui/core';
+import { IconCalendar } from '../../Assets';
 import './index.css';
 
 const Contents = () => {
@@ -7,18 +8,21 @@ const Contents = () => {
       className="contents-root"
     >
       <Grid 
-        xs
-        item 
-        container 
+        container
+        className="row"
       >
-        <Grid item sm={12} md className="border green">
+        <Grid item xs={12} md className="">
           <p className="title">Dashboard</p>
         </Grid>
-        <Grid item sm={12} md className="border blue">
-          <p>ICON CALENDAR</p>
-          <p>Period</p>
-          <p>11 September 2018 - 14 September 2018</p>
-          <p>ICON DOWN CHEVRON</p>
+        <Grid item container xs={12} md={5} className="calendar-box">
+          <Grid item xs className="flex-center-start">
+            <img className="icon-calendar" src={IconCalendar} alt="" />
+            <p>Period</p>
+          </Grid>
+          <Grid item xs={9} className="flex-center-end">
+            <p style={{ margin: 0 }}>11 September 2018 - 14 September 2018</p>
+            <p><span className="chevron down"> </span></p>
+          </Grid>
         </Grid>
 
       </Grid>
