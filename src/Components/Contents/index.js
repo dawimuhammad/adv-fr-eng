@@ -1,7 +1,8 @@
 import { Grid } from '@material-ui/core';
-import Insights from './Insight';
+import Insight from './Insight';
 import { IconCalendar } from '../../Assets';
 import './index.css';
+import Product from './Product';
 
 const Contents = () => {
   return (
@@ -29,7 +30,8 @@ const Contents = () => {
         </Grid>
       </Grid>
 
-      <Insights />
+      <Insight />
+      <Product />
     </Grid>
   )
 };

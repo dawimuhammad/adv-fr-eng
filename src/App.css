@@ -21,7 +21,15 @@
   border-color: yellowgreen;
 }
 
-/* chevron */
+/* ICONS */
+
+.icon-more {
+  width: 9px;
+  height: auto;
+  background: transparent;
+}
+
+/* icon chevron */
 
 .chevron::before {
 	display: inline-block;
@@ -82,12 +90,24 @@
   justify-content: flex-start;
 }
 
+.flex-start-center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flex-center-spacebetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 /* main-container-root styling applies here */
 
 .main-container-root {
   display: flex;
   width: 100%;
-  height: calc(100vh - 64px);
+  height: 100%;
   flex-flow: row;
 }
