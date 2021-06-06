@@ -1,0 +1,13 @@
+.insight-root .insight-item-container {
+  margin: 16px 0;
+}
+
+.insight-root .insight-item {
+  height: 104px;
+  width: auto;
+  margin: 0 10px;
+}
+
+.insight-root .insight-item:first-of-type {
+  margin-left: 0;
+}

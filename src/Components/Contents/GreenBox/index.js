@@ -2,7 +2,7 @@ import { Grid } from '@material-ui/core';
 import { IconHelp } from '../../../Assets';
 import './index.css'
 
-const GreenBox = () => {
+const GreenBox = ({toggle, setToggle}) => {
   return (
     <Grid
         container 
@@ -14,7 +14,10 @@ const GreenBox = () => {
         <div className="flex-center-center">
           <img className="icon-help" src={IconHelp} alt="" />
           <a className="a-help" href="?">Click Here for Help</a>
-          <p><span className="chevron white"> </span></p>
+          <div></div>
+          <div onClick={() => setToggle(!toggle)}>
+            <p><span className={(toggle) ? ("chevron white") : ("chevron white down")}> </span></p>
+          </div>
         </div>
     </Grid>
   )
