@@ -10,3 +10,25 @@
   font-size: 20px;
   color: #4D4F5C;
 }
+
+.average-purchase-value .legends {
+  border-radius: 8px;
+  width: 18px;
+  height: 8px;
+}
+
+.average-purchase-value .legends.green {
+  background: #37B04C 0% 0% no-repeat padding-box;
+}
+
+.average-purchase-value .legends.dark-green {
+  background: #289E45 0% 0% no-repeat padding-box;
+}
+
+.average-purchase-value .legends.light-green {
+  background: #7AE28C 0% 0% no-repeat padding-box;
+}
+
+.average-purchase-value .legends.ash{
+  background: #707070 0% 0% no-repeat padding-box;
+}
