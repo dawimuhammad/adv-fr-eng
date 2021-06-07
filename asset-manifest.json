@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/adv-fr-eng/static/css/main.f2477ffa.chunk.css",
-    "main.js": "/adv-fr-eng/static/js/main.66c93129.chunk.js",
-    "main.js.map": "/adv-fr-eng/static/js/main.66c93129.chunk.js.map",
-    "runtime-main.js": "/adv-fr-eng/static/js/runtime-main.4f77a05e.js",
-    "runtime-main.js.map": "/adv-fr-eng/static/js/runtime-main.4f77a05e.js.map",
-    "static/js/2.5727a803.chunk.js": "/adv-fr-eng/static/js/2.5727a803.chunk.js",
-    "static/js/2.5727a803.chunk.js.map": "/adv-fr-eng/static/js/2.5727a803.chunk.js.map",
-    "static/js/3.252220a6.chunk.js": "/adv-fr-eng/static/js/3.252220a6.chunk.js",
-    "static/js/3.252220a6.chunk.js.map": "/adv-fr-eng/static/js/3.252220a6.chunk.js.map",
+    "main.css": "/adv-fr-eng/static/css/main.2e927e37.chunk.css",
+    "main.js": "/adv-fr-eng/static/js/main.c0028708.chunk.js",
+    "main.js.map": "/adv-fr-eng/static/js/main.c0028708.chunk.js.map",
+    "runtime-main.js": "/adv-fr-eng/static/js/runtime-main.af549dce.js",
+    "runtime-main.js.map": "/adv-fr-eng/static/js/runtime-main.af549dce.js.map",
+    "static/js/2.147412bd.chunk.js": "/adv-fr-eng/static/js/2.147412bd.chunk.js",
+    "static/js/2.147412bd.chunk.js.map": "/adv-fr-eng/static/js/2.147412bd.chunk.js.map",
+    "static/js/3.276c1d6b.chunk.js": "/adv-fr-eng/static/js/3.276c1d6b.chunk.js",
+    "static/js/3.276c1d6b.chunk.js.map": "/adv-fr-eng/static/js/3.276c1d6b.chunk.js.map",
     "index.html": "/adv-fr-eng/index.html",
-    "static/css/main.f2477ffa.chunk.css.map": "/adv-fr-eng/static/css/main.f2477ffa.chunk.css.map",
-    "static/js/2.5727a803.chunk.js.LICENSE.txt": "/adv-fr-eng/static/js/2.5727a803.chunk.js.LICENSE.txt",
+    "static/css/main.2e927e37.chunk.css.map": "/adv-fr-eng/static/css/main.2e927e37.chunk.css.map",
+    "static/js/2.147412bd.chunk.js.LICENSE.txt": "/adv-fr-eng/static/js/2.147412bd.chunk.js.LICENSE.txt",
     "static/media/img-insights@1x.f26a6e1d.png": "/adv-fr-eng/static/media/img-insights@1x.f26a6e1d.png",
     "static/media/img-product-1.481dfd58.png": "/adv-fr-eng/static/media/img-product-1.481dfd58.png",
     "static/media/logo-advotics.5fbc0d21.jpg": "/adv-fr-eng/static/media/logo-advotics.5fbc0d21.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f77a05e.js",
-    "static/js/2.5727a803.chunk.js",
-    "static/css/main.f2477ffa.chunk.css",
-    "static/js/main.66c93129.chunk.js"
+    "static/js/runtime-main.af549dce.js",
+    "static/js/2.147412bd.chunk.js",
+    "static/css/main.2e927e37.chunk.css",
+    "static/js/main.c0028708.chunk.js"
   ]
 }
