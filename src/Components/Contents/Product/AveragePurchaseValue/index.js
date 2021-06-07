@@ -1,6 +1,7 @@
 import { Grid } from '@material-ui/core';
 import { IconMore } from '../../../../Assets';
 import SelectPeriodAvg from './MonthSelection';
+import ProductCharts from './product-charts';
 
 const AveragePurchaseValue = () => {
   return (
@@ -21,6 +22,14 @@ const AveragePurchaseValue = () => {
           <SelectPeriodAvg />
           <img className="icon-more" src={IconMore} alt="more" />
         </div>
+      </Grid>
+
+      <Grid
+        item
+        container
+        style={{ marginTop: "18px" }}
+      >
+        <ProductCharts />
       </Grid>
 
       <Grid
